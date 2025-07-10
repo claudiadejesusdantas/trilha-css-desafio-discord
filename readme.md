@@ -7,7 +7,7 @@ Nela, você vai construir um clone da página do Discord com HTML e CSS, colocan
 [Link do Figma](https://www.figma.com/file/NRBYrG5d4DSzObv7dpTqoM/Desafio-Responsividade---DIO) contendo o protótipo do desafio para
 que você possa se basear.
 
-![Exemplo do figma - tela discord.](./img/readme_exemplo.png)
+![Exemplo do figma - tela discord.](./assets/img/readme_exemplo.png)
 
 Para você realizar o desafio, **criar o arquivo e estilizar** usando como exemplo o modelo do figma.
 

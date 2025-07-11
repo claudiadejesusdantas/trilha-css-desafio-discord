@@ -1,0 +1,131 @@
+@media screen and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        width: 100%;
+    }
+  
+    .container_header {
+      display: flex;
+      align-self: flex-start;
+      background-size: cover;
+      background-position: center;
+      margin: 5rem;
+      width: 100%;
+    }
+    
+    header {
+        width: auto;
+        height: auto;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+
+    main{
+        padding-top: 2.5rem;
+    }
+    
+    .main_title {
+        font-family: 'Luckiest Guy', cursive;
+        margin-bottom: 1rem;
+        width: 100%;
+        font-size: 2em;
+    }
+    h1{
+        text-align: left!important;
+        padding-top: 15px;  
+    }
+    
+    .container_header p {
+        padding: 0rem;
+    }
+    
+    .container_botoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+    
+    .container_botoes button {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+        border-radius: 25px;
+        border: none;
+    }
+
+    .container_primeira_secao div, .container_segunda_secao div, .container_terceira_secao div, .container_quarta_secao div {
+        padding: 10px;
+        margin: 0;
+        width: 90%;
+    }
+
+    .container_quarta_secao div h2 {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .container_primeira_secao , .container_segunda_secao , .container_terceira_secao , .container_quarta_secao {
+        padding: 0px;
+        margin: 0;
+        width: 100%;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    
+    section img {
+        width: 90%;
+        max-width: 400px;
+        margin-bottom: 1rem;
+    }
+    
+    section h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0;
+        padding: 10px 0;
+        text-align: left!important;
+    }
+    
+    section p {
+      font-size: 1rem;
+      text-align: left!important;
+      padding: 10px 0;
+    }
+  
+    .container_segunda_secao img{
+        order: -1;
+    }
+    .container_quarta_secao {
+      background-color: #f6f6f6;
+     
+    }
+  
+    footer {
+      background-color: #23272A;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 25px 0;
+    }
+  
+    footer img {
+      width: auto;
+    }
+  }
+  

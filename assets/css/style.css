@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* @import url(../css/responsive_style.css); */
 
 body{
     display: flex;
@@ -16,7 +17,9 @@ header{
     background-position: center;
     background-size: cover;
     height: 50vh;
-    
+    display: flex;
+    justify-content: center;
+    padding: 0 25%;
 }
 
 h2{
@@ -33,12 +36,38 @@ p{
 
 .container_header {
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+
+.container_botoes{
+    padding: 25px;
+    display: flex;
+}
+
+.container_botoes button{
+    border: none;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+
+.container_botoes button:nth-child(2){
+    background-color: #23272A;
+    color: #f6f6f6;
+    margin-left: 10px;
+}
+
+
 
 .main_title{
     font-family: 'Luckiest Guy';
     font-size: 56px;
-    padding: 10px;
+    padding: 0 25%;
+    justify-content: center;
 }
 
 section{
